@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-pyhton'
+            label 'agent1'
             }
       }
     triggers {
