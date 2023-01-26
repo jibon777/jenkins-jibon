@@ -13,6 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
+		pip --version
                 pip install -r requirements.txt
                 '''
             }
